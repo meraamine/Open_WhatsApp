@@ -138,7 +138,7 @@ class _MyScaffoldState extends State<MyScaffold> {
           borderRadius: BorderRadius.circular(15)
         )
         ),
-        onPressed: () => context.go('/Profile')
+        onPressed: () => context.go('/profile')
         /*print(" Login Pressed  ")*/,
         child: Text('LOGIN ' , style: TextStyle(
           color: Color(0xff5ac18e),
